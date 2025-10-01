@@ -1,0 +1,34 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{bauer2010understanding}
+Bauer, S., Clark, D.D., Lehr, W.: Understanding broadband speed measurements.
+  TPRC (2010)
+
+\bibitem{CeroWRT_speedtests}
+{Dave Täht}: The new features and flaws of speedtest.net, ookla and
+  cloudflare. \url{https://blog.cerowrt.org/post/speedtests/}, accessed:
+  2025-10-01
+
+\bibitem{feamster2019internetspeedmeasurementcurrent}
+Feamster, N., Livingood, J.: Internet speed measurement: Current challenges and
+  future recommendations (2019), \url{https://arxiv.org/abs/1905.02334}
+
+\bibitem{hoilandbufferbloat}
+H{\o}iland-J{\o}rgensen, T.: Bufferbloat and beyond
+
+\bibitem{midoglu2018monroenettestconfigurabletooldissecting}
+Midoglu, C., Wimmer, L., Lutu, A., Alay, O., Griwodz, C.: Monroe-nettest: A
+  configurable tool for dissecting speed measurements in mobile broadband
+  networks (2018), \url{https://arxiv.org/abs/1710.07805}
+
+\bibitem{ietf-ippm-responsiveness-07}
+Paasch, C., Meyer, R., Cheshire, S., Hawkins, W.: {Responsiveness under Working
+  Conditions}. Internet-Draft draft-ietf-ippm-responsiveness-07, Internet
+  Engineering Task Force (Jul 2025),
+  \url{https://datatracker.ietf.org/doc/draft-ietf-ippm-responsiveness/07/},
+  work in Progress
+
+\end{thebibliography}
