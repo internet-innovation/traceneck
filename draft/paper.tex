@@ -3,13 +3,6 @@
 % Version 2.21 of 2022/01/12
 %
 
-\newcommand{\paul}[1]{\ignorespaces}
-\newcommand{\fb}[1]{\ignorespaces}
-\newcommand{\nick}[1]{\ignorespaces}
-\newcommand{\jonatas}[1]{\textcolor{blue}{[JM: #1]}}
-\newcommand{\siddhant}[1]{\textcolor{blue}{[SR: #1]}}
-\newcommand{\taveesh}[1]{\textcolor{orange}{[TS: #1]}}
-
 \documentclass[runningheads]{llncs}
 %
 \usepackage[T1]{fontenc}
@@ -19,6 +12,8 @@
 %
 \usepackage{graphicx}
 \usepackage{xcolor}
+
+\input{macros}
 % Used for displaying a sample figure. If possible, figure files should
 % be included in EPS format.
 %
@@ -59,6 +54,8 @@
 \input{sections/abstract}
 
 \input{sections/intro}
+\input{sections/background}
+\input{sections/motivation}
 
 \bibliographystyle{splncs04}
 \bibliography{refs}

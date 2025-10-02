@@ -1,0 +1,31 @@
+\section{Background}
+
+\subsection{Active Queue Management (AQM)}
+
+AQM techniques have been an active area of research and deployment for the past few decades to reduce latency and bufferbloat~\cite{bufferbloat} and to ensure fairness and coexistence 
+among TCP flows on the shared network links. Traditional AQM algorithms have been built to run in conjunction with TCP congestion control algorithms, which rely only on packet loss as a signal for congestion.
+
+To handle the bursty nature of TCP, these AQM techniques are equipped with large data buffers to prevent excessive packet drops due to these bursts. 
+However, bufferbloat arises when queue length grows unbounded, specifically if the buffers are increasingly large, the packets end up being queued in much deeper queues, leading to excessive queuing latency.
+latency can often build up as a result of individual bufferbloats at multiple routers on the network path. 
+
+AQM technique such as Random Early Detection~\cite{red}, CoDel~\cite{codel} and FQ-CoDel~\cite{fqcodel} have been
+primarily designed to reduce latency and bufferbloat, by actively managing the queue lengths and dropping packets before the queue becomes full.
+Other techniques such as Stochastic Fair Queuing (SFQ)~\cite{sfq} and Deficit Round Robin (DRR)~\cite{drr} aim to provide
+fairness among competing flows by ensuring equal bandwidth allocation.
+More recently, AQM techniques such as Proportional Integral controller Enhanced (PIE)~\cite{pie} and Low Latency, Low Loss, Scalable Throughput (L4S)~\cite{l4s} 
+have been proposed to provide low latency and high throughput for modern applications such as video streaming and online gaming.
+
+
+\siddhant{Should mention something about L4S here? It is positioned as a new AQM which tries to universally solve bufferbloat and fairness but we don't evaluate it.}
+
+\subsection{Speedtest Measurement Tools}
+
+\siddhant{Add details for each of these tools.}
+
+\begin{itemize}
+    \item M-Lab NDT: The Measurement Lab's Network Diagnostic Tool (NDT) is a widely used tool for measuring network performance, including bandwidth, latency, and packet loss.
+    \item Ookla Speedtest: Ookla's Speedtest is a popular web-based tool that provides users with real-time information about their internet connection speed, including download and upload speeds.
+    \item Apple Speedtest: Apple's Speedtest app is designed for iOS devices and provides users with a simple way to test their internet connection speed.
+\end{itemize}
+

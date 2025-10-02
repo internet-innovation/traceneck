@@ -7,3 +7,8 @@ However, the interpretation and use of these metrics has not been standardized. 
 In this paper, we investigate how the distribution of modern speed test measurements shifts when an AQM is deployed. Rather than reporting only mean throughput, the $90^{th}$ percentile or median latency, we analyze full distributions: the tails, the spikes, and metrics similar to "glitches per minute" \cite{CeroWRT_speedtests} that are most relevant to real-time applications. Our goal is to empirically characterize the difference between unmanaged queues and AQM-enabled network paths, and to highlight how this difference is (or is not) reflected in widely deployed measurement platforms. By doing so, we aim to inform both test designers and network operators of the gaps between the status quo of Internet measurement and the actual experience of end-users.
 
 \taveesh{Methods summary and contributions go here.}
+
+\siddhant{We also need some stronger justifications for why we are doing this study. 
+Maybe something like: "While AQM has been widely studied in the context of TCP performance, its impact on speedtest measurements remains underexplored.
+Secondly, AQM deployment is steadily increasing (some numbers from Jason/Comcast article/any other source)
+Understanding this relationship is crucial for both network operators and end-users to accurately assess and improve their internet experience."}

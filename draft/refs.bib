@@ -51,3 +51,139 @@
   title={Bufferbloat and Beyond},
   author={H{\o}iland-J{\o}rgensen, Toke}
 }
+
+@article{bufferbloat,
+author = {Gettys, Jim and Nichols, Kathleen},
+title = {Bufferbloat: Dark Buffers in the Internet: Networks without effective AQM may again be vulnerable to congestion collapse.},
+year = {2011},
+issue_date = {November 2011},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {9},
+number = {11},
+issn = {1542-7730},
+url = {https://doi.org/10.1145/2063166.2071893},
+doi = {10.1145/2063166.2071893},
+abstract = {Today’s networks are suffering from unnecessary latency and poor system performance. The culprit is bufferbloat, the existence of excessively large and frequently full buffers inside the network. Large buffers have been inserted all over the Internet without sufficient thought or testing. They damage or defeat the fundamental congestion-avoidance algorithms of the Internet’s most common transport protocol. Long delays from bufferbloat are frequently attributed incorrectly to network congestion, and this misinterpretation of the problem leads to the wrong solutions being proposed.},
+journal = {Queue},
+month = {nov},
+pages = {40–54},
+numpages = {15}
+}
+
+@misc{l4s,
+      title={Dual Queue Coupled AQM: Deployable Very Low Queuing Delay for All}, 
+      author={Koen De Schepper and Olga Albisser and Olivier Tilmans and Bob Briscoe},
+      year={2022},
+      eprint={2209.01078},
+      archivePrefix={arXiv},
+      primaryClass={cs.NI},
+      url={https://arxiv.org/abs/2209.01078}, 
+}
+
+@article{red,
+  author={Floyd, S. and Jacobson, V.},
+  journal={IEEE/ACM Transactions on Networking}, 
+  title={Random early detection gateways for congestion avoidance}, 
+  year={1993},
+  volume={1},
+  number={4},
+  pages={397-413},
+  keywords={Transport protocols;Delay effects;Throughput;Propagation delay;Bandwidth;TCPIP;Traffic control;High-speed networks;Feedback;Delay estimation},
+  doi={10.1109/90.251892}}
+
+@article{codel,
+author = {Nichols, Kathleen and Jacobson, Van},
+title = {Controlling queue delay},
+year = {2012},
+issue_date = {July 2012},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {55},
+number = {7},
+issn = {0001-0782},
+url = {https://doi.org/10.1145/2209249.2209264},
+doi = {10.1145/2209249.2209264},
+abstract = {A modern AQM is just one piece of the solution to bufferbloat.},
+journal = {Commun. ACM},
+month = {jul},
+pages = {42–50},
+numpages = {9}
+}
+
+@misc{fqcodel,
+    series =    {Request for Comments},
+    number =    8290,
+    howpublished =  {RFC 8290},
+    publisher = {RFC Editor},
+    doi =       {10.17487/RFC8290},
+    url =       {https://www.rfc-editor.org/info/rfc8290},
+    author =    {Toke Høiland-Jørgensen and Paul McKenney and dave.taht@gmail.com and Jim Gettys and Eric Dumazet},
+    title =     {{The Flow Queue CoDel Packet Scheduler and Active Queue Management Algorithm}},
+    pagetotal = 25,
+    year =      2018,
+    month =     jan,
+    abstract =  {This memo presents the FQ-CoDel hybrid packet scheduler and Active Queue Management (AQM) algorithm, a powerful tool for fighting bufferbloat and reducing latency. FQ-CoDel mixes packets from multiple flows and reduces the impact of head-of-line blocking from bursty traffic. It provides isolation for low-rate traffic such as DNS, web, and videoconferencing traffic. It improves utilisation across the networking fabric, especially for bidirectional traffic, by keeping queue lengths short, and it can be implemented in a memory- and CPU-efficient fashion across a wide range of hardware.},
+}
+
+@conference{sfq
+    ,author="Paul E. McKenney"
+    ,title="Stochastic Fairness Queuing"
+    ,Year="1990"
+    ,Month="June"
+    ,booktitle="IEEE INFOCOM'90 Proceedings"
+    ,publisher="The Institute of Electrical and Electronics Engineers, Inc."
+    ,pages="733-740"
+    ,address="San Francisco"
+}
+
+@article{10.1145/217391.217453,
+author = {Shreedhar, M. and Varghese, George},
+title = {Efficient fair queueing using deficit round robin},
+year = {1995},
+issue_date = {Oct. 1995},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {25},
+number = {4},
+issn = {0146-4833},
+url = {https://doi.org/10.1145/217391.217453},
+doi = {10.1145/217391.217453},
+abstract = {Fair queuing is a technique that allows each flow passing through a network device to have a fair share of network resources. Previous schemes for fair queuing that achieved nearly perfect fairness were expensive to implement: specifically, the work required to process a packet in these schemes was O(log(n)), where n is the number of active flows. This is expensive at high speeds. On the other hand, cheaper approximations of fair queuing that have been reported in the literature exhibit unfair behavior. In this paper, we describe a new approximation of fair queuing, that we call Deficit Round Robin. Our scheme achieves nearly perfect fairness in terms of throughput, requires only O(1) work to process a packet, and is simple enough to implement in hardware. Deficit Round Robin is also applicable to other scheduling problems where servicing cannot be broken up into smaller units, and to distributed queues.},
+journal = {SIGCOMM Comput. Commun. Rev.},
+month = oct,
+pages = {231–242},
+numpages = {12}
+}
+
+@inproceedings{drr,
+author = {Shreedhar, M. and Varghese, George},
+title = {Efficient fair queueing using deficit round robin},
+year = {1995},
+isbn = {0897917111},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/217382.217453},
+doi = {10.1145/217382.217453},
+abstract = {Fair queuing is a technique that allows each flow passing through a network device to have a fair share of network resources. Previous schemes for fair queuing that achieved nearly perfect fairness were expensive to implement: specifically, the work required to process a packet in these schemes was O(log(n)), where n is the number of active flows. This is expensive at high speeds. On the other hand, cheaper approximations of fair queuing that have been reported in the literature exhibit unfair behavior. In this paper, we describe a new approximation of fair queuing, that we call Deficit Round Robin. Our scheme achieves nearly perfect fairness in terms of throughput, requires only O(1) work to process a packet, and is simple enough to implement in hardware. Deficit Round Robin is also applicable to other scheduling problems where servicing cannot be broken up into smaller units, and to distributed queues.},
+booktitle = {Proceedings of the Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication},
+pages = {231–242},
+numpages = {12},
+location = {Cambridge, Massachusetts, USA},
+series = {SIGCOMM '95}
+}
+
+@INPROCEEDINGS{pie,
+  author={Pan, Rong and Natarajan, Preethi and Piglione, Chiara and Prabhu, Mythili Suryanarayana and Subramanian, Vijay and Baker, Fred and VerSteeg, Bill},
+  booktitle={2013 IEEE 14th International Conference on High Performance Switching and Routing (HPSR)}, 
+  title={PIE: A lightweight control scheme to address the bufferbloat problem}, 
+  year={2013},
+  volume={},
+  number={},
+  pages={148-155},
+  keywords={Delays;Probability;Estimation;Internet;Throughput;Jitter;Linux;bufferbloat;Active Queue Management (AQM);Quality of Service (QoS);Explicit Congestion Notification (ECN)},
+  doi={10.1109/HPSR.2013.6602305}}
+
+
+
+
