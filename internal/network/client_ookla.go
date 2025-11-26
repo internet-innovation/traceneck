@@ -8,9 +8,9 @@ import (
 	"net"
 	"strings"
 
-	"github.com/internet-equity/traceneck/internal/channel"
-	"github.com/internet-equity/traceneck/internal/config"
-	"github.com/internet-equity/traceneck/internal/meta"
+	"github.com/internet-innovation/traceneck/internal/channel"
+	"github.com/internet-innovation/traceneck/internal/config"
+	"github.com/internet-innovation/traceneck/internal/meta"
 )
 
 type OoklaStartInfo struct {

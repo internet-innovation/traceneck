@@ -5,12 +5,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/internet-equity/traceneck/internal/archive"
-	"github.com/internet-equity/traceneck/internal/channel"
-	"github.com/internet-equity/traceneck/internal/config"
-	"github.com/internet-equity/traceneck/internal/meta"
-	"github.com/internet-equity/traceneck/internal/network"
-	"github.com/internet-equity/traceneck/internal/ping"
+	"github.com/internet-innovation/traceneck/internal/archive"
+	"github.com/internet-innovation/traceneck/internal/channel"
+	"github.com/internet-innovation/traceneck/internal/config"
+	"github.com/internet-innovation/traceneck/internal/meta"
+	"github.com/internet-innovation/traceneck/internal/network"
+	"github.com/internet-innovation/traceneck/internal/ping"
 )
 
 // flog: dedicated logger for failures -- which won't disable in quiet mode

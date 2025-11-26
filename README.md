@@ -9,8 +9,8 @@ Bottleneck Link Locator in Access networks
 - [ndt7-client](https://github.com/m-lab/ndt7-client-go) or [ookla](https://www.speedtest.net/apps/cli) speedtest client
 - [tshark](https://tshark.dev/setup/install/) (optional)
 
-[Download Binary](https://github.com/internet-equity/traceneck/releases/latest) |
-[Docker Image](https://github.com/internet-equity/traceneck/pkgs/container/traceneck)
+[Download Binary](https://github.com/internet-innovation/traceneck/releases/latest) |
+[Docker Image](https://github.com/internet-innovation/traceneck/pkgs/container/traceneck)
 
 ## Build from Source
 

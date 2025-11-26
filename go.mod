@@ -1,4 +1,4 @@
-module github.com/internet-equity/traceneck
+module github.com/internet-innovation/traceneck
 
 go 1.23
 

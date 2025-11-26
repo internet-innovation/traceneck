@@ -16,8 +16,8 @@ import (
 
 	"github.com/google/gopacket/pcap"
 
-	osUtil "github.com/internet-equity/traceneck/internal/util/os"
-	"github.com/internet-equity/traceneck/internal/util/term"
+	osUtil "github.com/internet-innovation/traceneck/internal/util/os"
+	"github.com/internet-innovation/traceneck/internal/util/term"
 )
 
 // finishers: slice of configuration-checking closures

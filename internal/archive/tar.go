@@ -8,9 +8,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/internet-equity/traceneck/internal/config"
-	"github.com/internet-equity/traceneck/internal/meta"
-	"github.com/internet-equity/traceneck/internal/network"
+	"github.com/internet-innovation/traceneck/internal/config"
+	"github.com/internet-innovation/traceneck/internal/meta"
+	"github.com/internet-innovation/traceneck/internal/network"
 )
 
 func Write() {

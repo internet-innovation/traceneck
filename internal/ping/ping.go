@@ -10,10 +10,10 @@ import (
 	"golang.org/x/net/ipv4"
 	"golang.org/x/net/ipv6"
 
-	"github.com/internet-equity/traceneck/internal/channel"
-	"github.com/internet-equity/traceneck/internal/config"
-	"github.com/internet-equity/traceneck/internal/meta"
-	timeUtil "github.com/internet-equity/traceneck/internal/util/time"
+	"github.com/internet-innovation/traceneck/internal/channel"
+	"github.com/internet-innovation/traceneck/internal/config"
+	"github.com/internet-innovation/traceneck/internal/meta"
+	timeUtil "github.com/internet-innovation/traceneck/internal/util/time"
 )
 
 const (

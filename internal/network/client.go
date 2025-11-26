@@ -5,10 +5,10 @@ import (
 	"log"
 	"os/exec"
 
-	"github.com/internet-equity/traceneck/internal/channel"
-	"github.com/internet-equity/traceneck/internal/config"
-	"github.com/internet-equity/traceneck/internal/meta"
-	timeUtil "github.com/internet-equity/traceneck/internal/util/time"
+	"github.com/internet-innovation/traceneck/internal/channel"
+	"github.com/internet-innovation/traceneck/internal/config"
+	"github.com/internet-innovation/traceneck/internal/meta"
+	timeUtil "github.com/internet-innovation/traceneck/internal/util/time"
 )
 
 var logParserDone = make(channel.Type)

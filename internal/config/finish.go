@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/internet-equity/traceneck/internal/util/term"
+	"github.com/internet-innovation/traceneck/internal/util/term"
 )
 
 // finish: invoke finishers and return any error

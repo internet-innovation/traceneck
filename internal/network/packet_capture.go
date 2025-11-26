@@ -12,8 +12,8 @@ import (
 	"github.com/google/gopacket/pcap"
 	"github.com/google/gopacket/pcapgo"
 
-	"github.com/internet-equity/traceneck/internal/channel"
-	"github.com/internet-equity/traceneck/internal/config"
+	"github.com/internet-innovation/traceneck/internal/channel"
+	"github.com/internet-innovation/traceneck/internal/config"
 )
 
 // Ethernet Header: 14 bytes

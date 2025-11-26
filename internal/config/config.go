@@ -12,7 +12,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	timeUtil "github.com/internet-equity/traceneck/internal/util/time"
+	timeUtil "github.com/internet-innovation/traceneck/internal/util/time"
 )
 
 var (

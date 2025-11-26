@@ -8,8 +8,8 @@ import (
 	"os"
 	"slices"
 
-	"github.com/internet-equity/traceneck/internal/config"
-	timeUtil "github.com/internet-equity/traceneck/internal/util/time"
+	"github.com/internet-innovation/traceneck/internal/config"
+	timeUtil "github.com/internet-innovation/traceneck/internal/util/time"
 )
 
 type MeasureNdt struct {
